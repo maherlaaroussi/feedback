@@ -1,0 +1,66 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Détails
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+    <ion-fab vertical="bottom" horizontal="start" slot="fixed">
+      <ion-fab-button href="/tabs">
+        <ion-icon name="arrow-dropleft"></ion-icon>
+      </ion-fab-button>
+    </ion-fab>
+
+  <div flex-xs flex-gt-xs="50" layout="column">
+
+    <mat-card mat-theme-watch align="center">
+
+      <br>
+
+      <mat-card-title>Lorem ipsum</mat-card-title>
+
+      <br>
+
+      <mat-card-content layout="row" layout-align="space-between">
+
+        <h5><b>Description :</b></h5>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+        <br><br>
+
+        <h5><b>Lieu :</b></h5> Lorem ipsum
+
+        <br><br>
+
+        <h5><b>Date :</b></h5> Lorem ipsum
+
+        <br><br><br>
+
+        <mat-card-actions class="actions">
+
+          <ion-grid>
+            <ion-row>
+              <ion-col size="3">
+                <ion-button shape="round" color="dark" fill="outline" class="mat-fab-button" aria-label="Favorite">Pas fiable</ion-button>
+              </ion-col>
+              <ion-col>
+              </ion-col>
+              <ion-col>
+                <ion-button shape="round" color="dark" fill="outline" class="mat-fab-button" aria-label="Favorite">Fiable</ion-button>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+
+
+        </mat-card-actions>
+      </mat-card-content>
+    </mat-card>
+
+  </div>
+
+</ion-content>
